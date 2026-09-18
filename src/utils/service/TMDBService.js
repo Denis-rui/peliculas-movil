@@ -1,5 +1,4 @@
-import { axios } from "axios";
-import React from "react";
+import axios from "axios";
 import { TMDB_ACCESS_TOKEN, TMDB_BASE_URL } from "@env";
 
 export const getPopularMovies = async () => {
